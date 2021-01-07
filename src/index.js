@@ -1,26 +1,17 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StatusBar } from 'react-native';
+import { Provider } from 'react-redux';
 
-const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center',
-		backgroundColor: '#f3f3f3',
-	},
-	title: {
-		fontSize: 30,
-		textAlign: 'center',
-		margin: 10,
-	},
-});
+import Routes from './routes';
 
-export default function App() {
-	return (
-		<>
-			<View style={styles.container}>
-				<Text style={styles.title}>Hello World</Text>
-			</View>
-		</>
-	);
-}
+import store from './store';
+
+const App = () => (
+	<Provider store={store}>
+		<StatusBar barStyle="light-content" backgroundColor="#312e38" />
+		<Routes />
+	</Provider>
+);
+
+export default App;
