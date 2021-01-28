@@ -1,29 +1,45 @@
-Projeto: RocketFy
+# Projeto: Market Place
 
-![]()
+![](./marketplace.png)
 
-Um clone do [Pipefy](https://www.pipefy.com/pt-br/) usando drag 'n drop em reactjs.
+Criar um app de venda
 
 ### Utilidade:
 
-- Aplicação usada como aprendizado do ReactJs.
+- Aprender a usar React Native.
 
 #### Material:
 
-- ReactJS
-- React-router-dom
-- Styled-components
+- React Native
+- Redux
+- Json Server
+- Lottie
+- Redux Saga
+- Styled Components
+- React Native Vector Icons
+- React Navigation
+
+#### Pré-requisitos
+
+Antes de usar a aplicação, é ideal que você tenha o ambiente [Android](https://reactnative.dev/docs/environment-setup) configurado.
 
 #### Modo de uso:
 
 1. Abra um terminal ( cmd/propt de comando )
-2. Clone o repositório ( git clone git@github.com:RobMota/rocketfy.git ) em algum local de preferência
-3. Acesse a pasta ( cd rocketfy )
-4. E digite os comandos abaixo:
+2. Clone o repositório ( git clone git@github.com:RobMota/DigitalMarketplace.git ) em algum local de preferência
+3. Acesse a pasta ( cd DigitalMarketplace )
+4. E digite o comando abaixo:
 
-- npm / yarn install
-- npm / yarn start
+- `npx react-native start`
+
+5. Abra um novo terminal ( cmd/propt de comando ) dentro da pasta ( DigitalMarketplace ) e digite o comando abaixo:
+
+- `npx react-native run-android`
+
+6. Abra um novo terminal ( cmd/propt de comando ) dentro da pasta ( DigitalMarketplace ) e digite o comando abaixo:
+
+- `npx json-server server.json -p 3000`
 
 #### Autor do projeto original:
 
-- [Diego Fernandes](https://github.com/diego3g)
+- [Roberto Alves](https://github.com/robertosousa1)
