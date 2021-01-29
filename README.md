@@ -19,7 +19,7 @@ Criar um app de venda
 - React Native Vector Icons
 - React Navigation
 
-#### Pré-requisitos
+#### Pré-requisito
 
 Antes de usar a aplicação, é ideal que você tenha o ambiente [Android](https://reactnative.dev/docs/environment-setup) configurado.
 
